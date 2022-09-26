@@ -1,0 +1,40 @@
+.container{
+    text-align: center;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+label{
+    font-size: 1.3rem;
+}
+input{
+    width: 7rem;
+    background-color: blanchedalmond;
+    height: 1.5rem;
+}
+
+input:hover{
+    box-shadow: 1px 1px 5px 2px rgb(255, 255, 255);
+
+}
+
+#btn{
+    display: block;
+    margin: auto;
+    border-radius: 1rem;
+    
+    margin-top: 1rem;
+    background-color: #ebffa8;
+    padding: 0.3rem 1rem;
+}
+
+#btn:hover{
+    box-shadow: 1px 1px 15px 2px white;
+    cursor: pointer;
+}
+#output{
+    font-size: larger;
+    margin: 1rem 1rem;
+}
